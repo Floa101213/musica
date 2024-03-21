@@ -1,4 +1,6 @@
-﻿Console.WriteLine(@"Tô namorando aquela mina
+﻿Console.ForegroundColor = ConsoleColor.Green;
+
+Console.WriteLine(@"Tô namorando aquela mina
 Mas não sei se ela me namora
 Mina maneira do condomínio
 Lá do bairro onde eu moro
@@ -9,8 +11,9 @@ Lá do bairro onde eu moro
 Seu cabelo me alucina
 Sua boca me devora
 Sua voz me ilumina
-Seu olhar me apavora
-Me perdi no seu sorriso
+Seu olhar me apavora");
+Console.ForegroundColor = ConsoleColor.White;
+Console.WriteLine(@"Me perdi no seu sorriso
 Nem preciso me encontrar
 Não me mostre o paraíso
 Que se eu for, não vou voltar
